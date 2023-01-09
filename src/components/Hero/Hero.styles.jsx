@@ -10,15 +10,6 @@ export const HeroContainer = styled.div`
   margin-top: -21.5px;
 `;
 
-export const HeroOverlay = styled.div`
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1;
-  display: flex;
-  flex-direction: row;
-`;
-
 export const HeroInfoContainer = styled.div`
   width: 22rem;
   height: 30rem;
@@ -40,17 +31,14 @@ export const HeroLogoContainer = styled.div`
   z-index: 10;
   color: #fff;
   text-align: center;
-`;
-
-export const HeroLogo = styled.img`
-  width: 100%;
-  height: auto;
-`;
-
-export const HeroTitle = styled.h1`
-  font-size: 2.2rem;
-`;
-
-export const HeroSubtitle = styled.p`
-  font-size: 2rem;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: 2rem;
+  }
 `;

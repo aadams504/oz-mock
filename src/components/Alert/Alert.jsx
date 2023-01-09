@@ -1,13 +1,13 @@
-import React from "react";
-import { AlertContainer, AlertLink, AlertMessage } from "./Alert.styles";
+import { Link } from "react-router-dom";
+import { AlertContainer } from "./Alert.styles";
 
 const Alert = () => {
   return (
     <AlertContainer>
-      <AlertMessage>
+      <p>
         Ozanam Inn is hiring!
-        <AlertLink to="/employment">Join Our Team &rarr;</AlertLink>
-      </AlertMessage>
+        <Link to="/employment">Join Our Team &rarr;</Link>
+      </p>
     </AlertContainer>
   );
 };

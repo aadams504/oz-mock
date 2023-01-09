@@ -1,10 +1,13 @@
-import { HeaderContainer, PageTitle } from "./Header.styles";
+import { Overlay } from "../component.styles";
+import { HeaderContainer } from "./Header.styles";
 
 const Header = ({ title }) => {
   return (
-    <HeaderContainer>
-      <PageTitle>{title}</PageTitle>
-    </HeaderContainer>
+    <Overlay>
+      <HeaderContainer>
+        <h2>{title}</h2>
+      </HeaderContainer>
+    </Overlay>
   );
 };
 
