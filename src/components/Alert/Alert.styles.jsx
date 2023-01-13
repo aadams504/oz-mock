@@ -13,8 +13,14 @@ export const AlertContainer = styled.div`
     line-height: 0.5rem;
     font-weight: bold;
   }
-  Link {
-    text-decoration-line: underline;
-    padding-left: 0.6rem;
+`;
+
+export const AlertLink = styled(Link)`
+  text-decoration-line: underline;
+  padding-left: 0.9rem;
+
+  &:hover,
+  &:focus {
+    color: #fff;
   }
 `;

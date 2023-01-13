@@ -30,7 +30,11 @@ export const HeroLogoContainer = styled.div`
   border-radius: 2%;
   z-index: 10;
   color: #fff;
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  align-items: center;
   img {
     width: 100%;
     height: auto;

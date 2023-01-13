@@ -7,18 +7,19 @@ export const NavContainer = styled.div`
   display: flex;
   justify-content: space-between;
   background-color: transparent;
-  position: fixed;
+  margin-bottom: 25px;
 `;
 
 export const LogoContainer = styled(Link)`
   height: 100%;
   width: 70px;
   padding: 0 25px;
+
+  img {
+    max-width: 6.2rem;
+  }
 `;
 
-export const Logo = styled.img`
-  max-width: 6.2rem;
-`;
 
 export const NavLinks = styled.div`
   width: 70%;

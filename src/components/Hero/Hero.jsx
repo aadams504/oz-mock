@@ -15,7 +15,7 @@ const Hero = () => {
     <HeroContainer>
       <Overlay>
         <HeroInfoContainer>
-          <p>Hello World</p>
+          <p>Announcements Go Here</p>
         </HeroInfoContainer>
         <HeroLogoContainer>
           <img src={Logo} />
